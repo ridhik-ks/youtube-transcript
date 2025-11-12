@@ -6,7 +6,7 @@ from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, No
 from dotenv import load_dotenv
 load_dotenv()
 
-api_key = st.secrets("GROQ_API_KEY")
+api_key = st.secrets["GROQ_API_KEY"]
 
 # genai.configure(api_key="AIzaSyCDIoZUVq0HDL5ili4KMvT1Qe8epm00y2g")
 llm = ChatGroq(model="openai/gpt-oss-20b", api_key=api_key)
@@ -241,4 +241,5 @@ if st.button("Get Detailed Notes"):
 #         else:
 
 #             st.warning("Transcript could not be retrieved for this video.")
+
 
