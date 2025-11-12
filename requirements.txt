@@ -1,0 +1,16 @@
+langchain-openai
+langchain
+python-dotenv
+langchain-community
+langchain-core
+streamlit
+langchain-groq
+wikipedia
+arxiv
+ipykernel
+langchain-huggingface
+sentence-transformers
+validators
+youtube_transcript_api
+google-generativeai
+pathlib
